@@ -1,0 +1,15 @@
+# Mysql
+base: &base
+  adapter: mysql
+  encoding: utf8
+  host: 127.0.0.1
+  username: root
+  password: kenrome
+
+development: 
+  <<: *base
+  database: happy
+
+production:
+  <<: *base
+  database: happy
