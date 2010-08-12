@@ -35,7 +35,14 @@
     border-bottom:0px #333 solid;
     line-height:0;
   }
-
+  .hlist .left-top-corner{
+   	 position:relative;
+	 float:left;
+   }
+   .hlist .right-top-corner{
+   	 position:relative;
+	 float:right;
+   }
   .hlist ul {
     margin:0;
     padding:0;
